@@ -53,3 +53,11 @@ print('Лампа -', lamps_quantity, 'шт, стоимость', lamps_cost, '�
 # Это задание на ручное вычисление - что бы потом понять как работают циклы и насколько с ними проще жить.
 
 # TODO здесь ваш код
+lamp_cost = store[goods["Лампа"]][0]["quantity"] * store[goods["Лампа"]][0]["price"]
+table_cost = store[goods["Стол"]][0]["quantity"] * store[goods["Стол"]][0]["price"]
+table_cost = store[goods["Стол"]][1]["quantity"] * store[goods["Стол"]][1]["price"]
+sofa_cost = store[goods["Диван"]][0]["quantity"] * store[goods["Диван"]][0]["price"]
+sofa_cost = store[goods["Диван"]][1]["quantity"] * store[goods["Диван"]][1]["price"]
+chair_cost = store[goods["Стул"]][0]["quantity"] * store[goods["Стул"]][0]["price"]
+chair_cost = store[goods["Стул"]][1]["quantity"] * store[goods["Стул"]][1]["price"]
+chair_cost = store[goods["Стул"]][2]["quantity"] * store[goods["Стул"]][2]["price"]
