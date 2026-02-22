@@ -34,14 +34,14 @@ store = {
 # Рассчитать на какую сумму лежит каждого товара на складе
 # например для ламп
 
-lamps_cost = store[goods['Лампа']][0]['quantity'] * store[goods['Лампа']][0]['price']
+#lamps_cost = store[goods['Лампа']][0]['quantity'] * store[goods['Лампа']][0]['price']
 # или проще (/сложнее ?)
-lamp_code = goods['Лампа']
-lamps_item = store[lamp_code][0]
-lamps_quantity = lamps_item['quantity']
-lamps_price = lamps_item['price']
-lamps_cost = lamps_quantity * lamps_price
-print('Лампа -', lamps_quantity, 'шт, стоимость', lamps_cost, 'руб')
+#lamp_code = goods['Лампа']
+#lamps_item = store[lamp_code][0]
+#lamps_quantity = lamps_item['quantity']
+#lamps_price = lamps_item['price']
+#lamps_cost = lamps_quantity * lamps_price
+#print('Лампа -', lamps_quantity, 'шт, стоимость', lamps_cost, 'руб')
 
 # Вывести стоимость каждого вида товара на складе:
 # один раз распечать сколько всего столов и их общая стоимость,
@@ -54,10 +54,23 @@ print('Лампа -', lamps_quantity, 'шт, стоимость', lamps_cost, '�
 
 # TODO здесь ваш код
 lamp_cost = store[goods["Лампа"]][0]["quantity"] * store[goods["Лампа"]][0]["price"]
-table_cost = store[goods["Стол"]][0]["quantity"] * store[goods["Стол"]][0]["price"]
-table_cost = store[goods["Стол"]][1]["quantity"] * store[goods["Стол"]][1]["price"]
-sofa_cost = store[goods["Диван"]][0]["quantity"] * store[goods["Диван"]][0]["price"]
-sofa_cost = store[goods["Диван"]][1]["quantity"] * store[goods["Диван"]][1]["price"]
-chair_cost = store[goods["Стул"]][0]["quantity"] * store[goods["Стул"]][0]["price"]
-chair_cost = store[goods["Стул"]][1]["quantity"] * store[goods["Стул"]][1]["price"]
-chair_cost = store[goods["Стул"]][2]["quantity"] * store[goods["Стул"]][2]["price"]
+table1_cost = store[goods["Стол"]][0]["quantity"] * store[goods["Стол"]][0]["price"]
+table2_cost = store[goods["Стол"]][1]["quantity"] * store[goods["Стол"]][1]["price"]
+sofa1_cost = store[goods["Диван"]][0]["quantity"] * store[goods["Диван"]][0]["price"]
+sofa2_cost = store[goods["Диван"]][1]["quantity"] * store[goods["Диван"]][1]["price"]
+chair1_cost = store[goods["Стул"]][0]["quantity"] * store[goods["Стул"]][0]["price"]
+chair2_cost = store[goods["Стул"]][1]["quantity"] * store[goods["Стул"]][1]["price"]
+chair3_cost = store[goods["Стул"]][2]["quantity"] * store[goods["Стул"]][2]["price"]
+lamp_quantity = store[goods["Лампа"]][0]["quantity"]
+table1_quantity = store[goods["Стол"]][0]["quantity"] 
+table2_quantity = store[goods["Стол"]][1]["quantity"] 
+sofa1_quantity = store[goods["Диван"]][0]["quantity"] 
+sofa2_quantity = store[goods["Диван"]][1]["quantity"] 
+chair1_quantity = store[goods["Стул"]][0]["quantity"] 
+chair2_quantity = store[goods["Стул"]][1]["quantity"] 
+chair3_quantity = store[goods["Стул"]][2]["quantity"]
+print(f"Лампа - {lamp_quantity} шт, стоимость {lamp_cost} руб")
+print(f"Стол - {table1_quantity + table2_quantity} шт, стоимость {table1_cost + table2_cost} руб")
+print(f"Диван - {sofa1_quantity + sofa2_quantity} шт, стоимость {sofa1_cost + sofa2_cost} руб")
+print(f"Стул - {chair1_quantity + chair2_quantity + chair3_quantity} шт, стоимость {chair1_cost + chair2_cost + chair3_cost} руб")
+
