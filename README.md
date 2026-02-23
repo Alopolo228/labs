@@ -16,4 +16,10 @@ git branch - просмотр веток
 git checkout -b feature - создание ветки для новой функциональности  
 git merge feature - слияние ветки с основной  
 git push origin main - отправка на гитхаб  
-git pull origin main - получение обновлений
+git pull origin main - получение обновлений  
+# Скриншоты результатов  
+![результат](
+
+
+
+
