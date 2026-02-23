@@ -18,7 +18,11 @@ git merge feature - слияние ветки с основной
 git push origin main - отправка на гитхаб  
 git pull origin main - получение обновлений  
 # Скриншоты результатов  
-![результат](
+![результат](https://github.com/Alopolo228/labs/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA1.png)  
+# Ссылка на используемые материалы  
+- словари - https://open-data-science.github.io/pycourse/base/dictionary/
+- условные операторы - https://pythonworld.ru/osnovy/instrukciya-if-elif-else-proverka-istinnosti-trexmestnoe-vyrazhenie-ifelse.html
+- циклы - https://pythonru.com/osnovy/cikl-for-in
 
 
 
