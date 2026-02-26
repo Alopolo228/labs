@@ -7,22 +7,8 @@
 4. Если города совпадают - расстояние равно 0
 5. Если города разные - вычислить расстояние по формуле евклидовой метрики
 6. Сохранить результат во вложенной словарь
-# Работа с командами git  
-git init - создание нового репозитория  
-git add . - добавление всех файлов в индекс  
-git commit -m - сохранение изменений  
-git log -- oneline - просмотр сокращённой истории  
-git branch - просмотр веток  
-git checkout -b feature - создание ветки для новой функциональности  
-git merge feature - слияние ветки с основной  
-git push origin main - отправка на гитхаб  
-git pull origin main - получение обновлений  
 # Скриншоты результатов  
 ![результат](https://github.com/Alopolo228/labs/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA1.png)  
-# Ссылка на используемые материалы  
-- словари - https://open-data-science.github.io/pycourse/base/dictionary/
-- условные операторы - https://pythonworld.ru/osnovy/instrukciya-if-elif-else-proverka-istinnosti-trexmestnoe-vyrazhenie-ifelse.html
-- циклы - https://pythonru.com/osnovy/cikl-for-in
   
 # Задание 01  
 Есть значение радиуса круга, выведите на консоль значение площади этого круга с точностью до 4-x знаков после запятой  
@@ -32,66 +18,24 @@ git pull origin main - получение обновлений
 3. Определено расстояние от точки до начала координат  
 4. Если точка лежит внутри круга, то True, иначе False  
 5. Аналогично для второй точки  
-# Работа с командами git  
-git init - создание нового репозитория  
-git add . - добавление всех файлов в индекс  
-git commit -m - сохранение изменений  
-git status - просмотр состояния репозитория  
-git log -- oneline - просмотр сокращённой истории  
-git branch - просмотр веток  
-git checkout -b feature - создание ветки для новой функциональности  
-git merge feature - слияние ветки с основной  
-git remote add origin <URL> - подключение удалённого репозитория  
-git push origin main - отправка на гитхаб  
-git pull origin main - получение обновлений  
 # Скриншоты результатов  
 ![результат](https://github.com/Alopolo228/labs/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA2.png?raw=true)  
-# Ссылка на используемые материалы  
-- round - https://pythonru.com/uroki/funkcija-round-dlja-nachinajushhih  
   
 # Задание 02  
 Расставить знаки операций "плюс", "минус", "умножение" и скобки между числами "1 2 3 4 5" так, чтобы получилось число "25".  
 # Описание  
 1. Создана переменная в которой будут складываться числа для получения 25  
 2. Перебираем различные варианты  
-# Работа с командами git  
-git init - создание нового репозитория  
-git add . - добавление всех файлов в индекс  
-git commit -m - сохранение изменений  
-git status - просмотр состояния репозитория  
-git log -- oneline - просмотр сокращённой истории  
-git branch - просмотр веток  
-git checkout -b feature - создание ветки для новой функциональности  
-git merge feature - слияние ветки с основной  
-git remote add origin <URL> - подключение удалённого репозитория  
-git push origin main - отправка на гитхаб  
-git pull origin main - получение обновлений  
 # Скриншоты результатов  
 ![результат](https://github.com/Alopolo228/labs/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA3.png?raw=true)  
-# Ссылка на используемые материалы  
-- арифмитичесике операции с числами - https://metanit.com/python/tutorial/2.3.php  
   
 # Задание 03  
 Есть строка с перечислением фильмов, выведите на консоль с помощью индексации строки, последовательно: первый фильм, последний, второй, второй с конца  
 # Описание  
 1. Создание переменных с срезами названий  
 2. Последовательный вывод  
-# Работа с командами git  
-git init - создание нового репозитория  
-git add . - добавление всех файлов в индекс  
-git commit -m - сохранение изменений  
-git status - просмотр состояния репозитория  
-git log -- oneline - просмотр сокращённой истории  
-git branch - просмотр веток  
-git checkout -b feature - создание ветки для новой функциональности  
-git merge feature - слияние ветки с основной  
-git remote add origin <URL> - подключение удалённого репозитория  
-git push origin main - отправка на гитхаб  
-git pull origin main - получение обновлений  
 # Скриншоты результатов  
 ![результат](https://github.com/Alopolo228/labs/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA4.png?raw=true)  
-# Ссылка на используемые материалы  
-- срезы - [https://metanit.com/python/tutorial/2.3.php](https://ru.hexlet.io/courses/python-lists/lessons/slices/theory_unit)
   
 # Задание 04  
 Создайте списки: моя семья (минимум 3 элемента, есть еще дедушки и бабушки, если что) список списков приблизительного роста членов вашей семьи, выведите на консоль рост отца в формате (рост отца - XX см)  
@@ -101,22 +45,8 @@ git pull origin main - получение обновлений
 3. Выводим рост отца  
 4. С помощью цикла суммируем общий рост семьи  
 5. Выводим общий рост семьи  
-# Работа с командами git  
-git init - создание нового репозитория  
-git add . - добавление всех файлов в индекс  
-git commit -m - сохранение изменений  
-git status - просмотр состояния репозитория  
-git log -- oneline - просмотр сокращённой истории  
-git branch - просмотр веток  
-git checkout -b feature - создание ветки для новой функциональности  
-git merge feature - слияние ветки с основной  
-git remote add origin <URL> - подключение удалённого репозитория  
-git push origin main - отправка на гитхаб  
-git pull origin main - получение обновлений  
 # Скриншоты результатов  
 ![результат](https://github.com/Alopolo228/labs/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA5.png?raw=true)  
-# Ссылка на используемые материалы  
-- списки - https://pythonworld.ru/tipy-dannyx-v-python/spiski-list-funkcii-i-metody-spiskov.html  
   
 # Задание 05  
 Есть список животных в зоопарке посадите медведя (bear) между львом и кенгуру и выведите список на консоль, добавьте птиц из списка birds в последние клетки зоопарка и выведите список на консоль, уберите слона и выведите список на консоль, выведите на консоль в какой клетке сидит лев (lion) и жаворонок (lark).  
@@ -125,25 +55,8 @@ git pull origin main - получение обновлений
 2. С помощью extend добавляем птиц из списка  
 3. Убираем слона с помощью remove  
 4. С помощью index выводим где сидит лев и жаворонок    
-# Работа с командами git  
-git init - создание нового репозитория  
-git add . - добавление всех файлов в индекс  
-git commit -m - сохранение изменений  
-git status - просмотр состояния репозитория  
-git log -- oneline - просмотр сокращённой истории  
-git branch - просмотр веток  
-git checkout -b feature - создание ветки для новой функциональности  
-git merge feature - слияние ветки с основной  
-git remote add origin <URL> - подключение удалённого репозитория  
-git push origin main - отправка на гитхаб  
-git pull origin main - получение обновлений  
 # Скриншоты результатов  
 ![результат](https://github.com/Alopolo228/labs/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA6.png?raw=true)  
-# Ссылка на используемые материалы  
-- insert - https://sky.pro/wiki/python/metod-insert-v-python-dobavlenie-elementa-po-indeksu/  
-- extend - https://skillbox.ru/media/code/metody-append-i-extend-v-python-dobavlyaem-elementy-v-spisok/  
-- remove - https://sky.pro/wiki/python/metod-remove-v-python-udalenie-elementa-po-znacheniyu/  
-- index - https://sky.pro/wiki/python/metod-index-v-python-poisk-elementa-po-znacheniyu/  
   
 # Задание 06  
 Есть список песен группы Depeche Mode со временем звучания с точностью до долей минут точность указывается в функции round(a, b), распечатайте общее время звучания трех песен: 'Halo', 'Enjoy the Silence' и 'Clean' в формате - Три песни звучат ХХХ.XX минут, где a, это число которое надо округлить, а b количество знаков после запятой распечатайте общее время звучания трех песен: 'Sweetest Perfection', 'Policy of Truth' и 'Blue Dress' - А другие три песни звучат ХХХ минут  
@@ -152,43 +65,15 @@ git pull origin main - получение обновлений
 2. Суммируем три трека 
 3. Округляем и выводим результат
 4. Аналогично с тремя другими треками, но поиск по ключам      
-# Работа с командами git  
-git init - создание нового репозитория  
-git add . - добавление всех файлов в индекс  
-git commit -m - сохранение изменений  
-git status - просмотр состояния репозитория  
-git log -- oneline - просмотр сокращённой истории  
-git branch - просмотр веток  
-git checkout -b feature - создание ветки для новой функциональности  
-git merge feature - слияние ветки с основной  
-git remote add origin <URL> - подключение удалённого репозитория  
-git push origin main - отправка на гитхаб  
-git pull origin main - получение обновлений  
 # Скриншоты результатов  
 ![результат](https://github.com/Alopolo228/labs/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA7.png?raw=true)  
-# Ссылка на используемые материалы  
-- словари - https://skillbox.ru/media/code/slovari-v-python-chto-nuzhno-znat-i-kak-polzovatsya/
   
 # Задание 07  
 Есть зашифрованное сообщение, нужно его расшифровать и вывести на консоль в удобочитаемом виде, должна получиться фраза на русском языке, например: как два байта переслать.  
 # Описание  
 1. Расчитываем срезы под условия и получаем ответ      
-# Работа с командами git  
-git init - создание нового репозитория  
-git add . - добавление всех файлов в индекс  
-git commit -m - сохранение изменений  
-git status - просмотр состояния репозитория  
-git log -- oneline - просмотр сокращённой истории  
-git branch - просмотр веток  
-git checkout -b feature - создание ветки для новой функциональности  
-git merge feature - слияние ветки с основной  
-git remote add origin <URL> - подключение удалённого репозитория  
-git push origin main - отправка на гитхаб  
-git pull origin main - получение обновлений  
 # Скриншоты результатов  
 ![результат](https://github.com/Alopolo228/labs/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA8.png?raw=true)  
-# Ссылка на используемые материалы  
-- обратные срезы - https://clck.ru/MfEMS
   
 # Задание 08  
 В саду сорвали цветы, на лугу сорвали цветы, создайте множество цветов, произрастающих в саду и на лугу, выведите на консоль все виды цветов, выведите на консоль те, которые растут и там и там, выведите на консоль те, которые растут в саду, но не растут на лугу, выведите на консоль те, которые растут на лугу, но не растут в саду.  
@@ -198,45 +83,15 @@ git pull origin main - получение обновлений
 3. Используем intersection, чтобы оставить совпадающие цветы  
 4. Используем difference, чтобы оставить только те, что растут в саду
 5. Повторяем предыдущий пункт, но наоборот
-# Работа с командами git  
-git init - создание нового репозитория  
-git add . - добавление всех файлов в индекс  
-git commit -m - сохранение изменений  
-git status - просмотр состояния репозитория  
-git log -- oneline - просмотр сокращённой истории  
-git branch - просмотр веток  
-git checkout -b feature - создание ветки для новой функциональности  
-git merge feature - слияние ветки с основной  
-git remote add origin <URL> - подключение удалённого репозитория  
-git push origin main - отправка на гитхаб  
-git pull origin main - получение обновлений  
 # Скриншоты результатов  
 ![результат](https://github.com/Alopolo228/labs/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA9.png?raw=true)  
-# Ссылка на используемые материалы  
-- множества - https://pythonworld.ru/tipy-dannyx-v-python/mnozhestva-set-i-frozenset.html
-- intersection - https://docs-python.ru/tutorial/obschie-operatsii-mnozhestvami-set-frozenset-python/metod-sets-intersection-peresechenie/
-- difference - https://code.mu/ru/python/manual/set/difference/
   
 # Задание 09  
 Есть словарь магазинов с распродажами, cоздайте словарь цен на продукты по условию задания. Указать надо только по 2 магазина с минимальными ценами  
 # Описание  
 1. Создаём словарь цен на продукты  
-# Работа с командами git  
-git init - создание нового репозитория  
-git add . - добавление всех файлов в индекс  
-git commit -m - сохранение изменений  
-git status - просмотр состояния репозитория  
-git log -- oneline - просмотр сокращённой истории  
-git branch - просмотр веток  
-git checkout -b feature - создание ветки для новой функциональности  
-git merge feature - слияние ветки с основной  
-git remote add origin <URL> - подключение удалённого репозитория  
-git push origin main - отправка на гитхаб  
-git pull origin main - получение обновлений  
 # Скриншоты результатов  
 ![результат](https://github.com/Alopolo228/labs/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA10.png?raw=true)  
-# Ссылка на используемые материалы  
-- словари - https://skillbox.ru/media/code/slovari-v-python-chto-nuzhno-znat-i-kak-polzovatsya/  
   
 # Задание 10  
 Есть словарь кодов товаров, есть словарь списков количества товаров на складе. Рассчитать на какую сумму лежит каждого товара на складе. Вывести стоимость каждого вида товара на складе: один раз распечать сколько всего столов и их общая стоимость, один раз распечать сколько всего стульев и их общая стоимость, и т.д. на складе, формат строки <товар> - <кол-во> шт, стоимость <общая стоимость> руб  
@@ -245,6 +100,9 @@ git pull origin main - получение обновлений
 2. Найти количество каждого товара  
 3. Суммировать все товары соответственно своему виду  
 4. Вывести количество и общую стоимость  
+# Скриншоты результатов  
+![результат](https://github.com/Alopolo228/labs/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA11.png?raw=true)  
+  
 # Работа с командами git  
 git init - создание нового репозитория  
 git add . - добавление всех файлов в индекс  
@@ -257,7 +115,20 @@ git merge feature - слияние ветки с основной
 git remote add origin <URL> - подключение удалённого репозитория  
 git push origin main - отправка на гитхаб  
 git pull origin main - получение обновлений  
-# Скриншоты результатов  
-![результат](https://github.com/Alopolo228/labs/blob/main/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA11.png?raw=true)  
+  
 # Ссылка на используемые материалы  
-- словари - https://skillbox.ru/media/code/slovari-v-python-chto-nuzhno-znat-i-kak-polzovatsya/  
+- словари - https://open-data-science.github.io/pycourse/base/dictionary/  
+- условные операторы - https://pythonworld.ru/osnovy/instrukciya-if-elif-else-proverka-istinnosti-trexmestnoe-vyrazhenie-ifelse.html  
+- циклы - https://pythonru.com/osnovy/cikl-for-in  
+- множества - https://pythonworld.ru/tipy-dannyx-v-python/mnozhestva-set-i-frozenset.html  
+- intersection - https://docs-python.ru/tutorial/obschie-operatsii-mnozhestvami-set-frozenset-python/metod-sets-intersection-peresechenie/  
+- difference - https://code.mu/ru/python/manual/set/difference/  
+- обратные срезы - https://clck.ru/MfEMS  
+- round - https://pythonru.com/uroki/funkcija-round-dlja-nachinajushhih  
+- арифмитичесике операции с числами - https://metanit.com/python/tutorial/2.3.php  
+- обратные срезы - https://clck.ru/MfEMS  
+- списки - https://pythonworld.ru/tipy-dannyx-v-python/spiski-list-funkcii-i-metody-spiskov.html  
+- insert - https://sky.pro/wiki/python/metod-insert-v-python-dobavlenie-elementa-po-indeksu/  
+- extend - https://skillbox.ru/media/code/metody-append-i-extend-v-python-dobavlyaem-elementy-v-spisok/  
+- remove - https://sky.pro/wiki/python/metod-remove-v-python-udalenie-elementa-po-znacheniyu/  
+- index - https://sky.pro/wiki/python/metod-index-v-python-poisk-elementa-po-znacheniyu/  
