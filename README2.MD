@@ -27,3 +27,7 @@
 
 # Скриншоты результатов  
 ![результат](https://github.com/Alopolo228/labs/blob/main/Screenshot_20260305_134119.png?raw=true)  
+# Ссылка на используемые материалы  
+Itertools в Python - Хабр  
+itertools — Functions creating iterators for efficient looping  
+Итерируем правильно: 20 приемов использования в Python модуля itertools  
