@@ -38,3 +38,4 @@
 [Recursion in Programming - Full Course - freeCodeCamp.org](https://youtu.be/IJDJ0kBx2LM)  
 [🐍 Самоучитель по Python для начинающих. Часть 13: Рекурсивные функции - proglib.io](https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-13-rekursivnye-funkcii-2023-01-23)  
 [Как работает рекурсия – объяснение в блок-схемах и видео - Хабр](https://habr.com/ru/articles/337030/)  
+[Введение в Python Functools](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://habr.com/ru/companies/otus/articles/504102/&ved=2ahUKEwiQ9eD1ipqTAxWBFxAIHXMNLpkQFnoECAwQAQ&usg=AOvVaw1-U34asdsrGtdWZ0jiGQve)
