@@ -19,3 +19,6 @@
 # Скриншоты результатов  
 ![результат](https://github.com/Alopolo228/labs/blob/main/Screenshot_20260312_134202.png?raw=true)  
 # Ссылка на используемые материалы  
+[Recursion in Programming - Full Course - freeCodeCamp.org](https://youtu.be/IJDJ0kBx2LM)  
+[🐍 Самоучитель по Python для начинающих. Часть 13: Рекурсивные функции - proglib.io](https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-13-rekursivnye-funkcii-2023-01-23)  
+[Как работает рекурсия – объяснение в блок-схемах и видео - Хабр](https://habr.com/ru/articles/337030/)  
