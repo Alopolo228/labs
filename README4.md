@@ -18,7 +18,8 @@
 4. Возвращаем имя функции и ошибку если ошибка  
 
 # Скриншоты результатов  
-![результат](https://github.com/Alopolo228/labs/blob/main/Screenshot_20260305_134119.png?raw=true)  
+![результат](<img width="499" height="132" alt="image" src="https://github.com/user-attachments/assets/e8abf489-be53-4ce5-b94d-64cb44919981" />
+)  
 # Ссылка на используемые материалы  
 Itertools в Python - Хабр - https://habr.com/ru/companies/otus/articles/529356/  
 itertools — Functions creating iterators for efficient looping - https://docs.python.org/3/library/itertools.html  
