@@ -21,5 +21,3 @@
 ![результат](https://github.com/Alopolo228/labs/blob/main/Screenshot_20260319_144346.png?raw=true)  
 # Ссылка на используемые материалы  
 Itertools в Python - Хабр - https://habr.com/ru/companies/otus/articles/529356/  
-itertools — Functions creating iterators for efficient looping - https://docs.python.org/3/library/itertools.html  
-Итерируем правильно: 20 приемов использования в Python модуля itertools - https://proglib.io/p/iteriruemsya-pravilno-20-priemov-ispolzovaniya-v-python-modulya-itertools-2020-01-03  
