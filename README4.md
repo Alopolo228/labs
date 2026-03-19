@@ -20,4 +20,4 @@
 # Скриншоты результатов  
 ![результат](https://github.com/Alopolo228/labs/blob/main/Screenshot_20260319_144346.png?raw=true)  
 # Ссылка на используемые материалы  
-[Декораторы для начинабщих чайников](https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://pythonworld.ru/osnovy/dekoratory.html&ved=2ahUKEwjn4POk16uTAxWLKhAIHSVTDjAQFnoECAUQAg&usg=AOvVaw3UYfWodWtCQtBoGcSZkYVj)  
+[Декораторы для начинающих и чайников](https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://pythonworld.ru/osnovy/dekoratory.html&ved=2ahUKEwjn4POk16uTAxWLKhAIHSVTDjAQFnoECAUQAg&usg=AOvVaw3UYfWodWtCQtBoGcSZkYVj)  
