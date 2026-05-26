@@ -19,6 +19,6 @@
 14. Добавляем все виджеты в вертикальный BoxLayout  
 15. Запускаем приложение через MyApp().run()  
 # Скриншоты результатов  
-![результат](https://github.com/Alopolo228/labs/blob/main/Screenshot_20260409_145210.png?raw=true)  
+![результат](https://github.com/Alopolo228/labs/blob/main/%D0%BB%D0%B0%D0%B1%D0%B06.png?raw=true)  
 # Ссылка на используемые материалы  
-[Генераторы Python: что это такое и зачем они нужны](https://www.google.com/url?esrc=s&q=&rct=j&sa=U&url=https://skillbox.ru/media/code/generatory_python_chto_eto_takoe_i_zachem_oni_nuzhny/&ved=2ahUKEwixxaD0wOCTAxUAKxAIHYuCNyEQFnoECAMQAg&usg=AOvVaw1Z0EDIl6vtYZrfV-sKp0-M)  
+[Справочник kivy](https://kivy.org/doc/stable/)  
