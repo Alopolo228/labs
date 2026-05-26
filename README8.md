@@ -27,6 +27,6 @@ GUI/TUI фреймворки не должны повторяться в гру�
 21. Создаём метод refresh_all (обновить таблицу и статистику) и clear_inputs (очистить поля)  
 22. Запускаем приложение через QApplication и app.exec()  
 # Скриншоты результатов  
-![результат](https://github.com/Alopolo228/labs/blob/main/%D0%BB%D0%B0%D0%B1%D0%B07.png?raw=true)  
+![результат](https://github.com/Alopolo228/labs/blob/main/%D0%BB%D0%B0%D0%B1%D0%B08.png?raw=true)  
 # Ссылка на используемые материалы  
-[Документация - wxPython](https://wxpython.org/pages/documentation/index.html)  
+[Документация - PySide6](https://doc.qt.io/qtforpython-6/PySide6/QtWidgets/index.html)  
